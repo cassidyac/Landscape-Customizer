@@ -1,2 +1,8 @@
-# CISC204-S26-Project3-Template
-Empty Godot project for Project 3
+# Lanscape Editor, CISC204 Project 3
+This game was created as an assignment in CISC204. The assignment was to create a game that allows the player to create a "character," where they can swap out 3 elements in the scene. 
+
+I first created all of my assets in a pixel art website. After uploading all of these to Godot, I started creating the actual game. In the game, I used sprites to act as buttons that the user could use to shuffle through each set of assets. The game also utilizes a LineEdit node to take in a string of 3 numbers and load the corresponding assets. Further, the user can hit the save button to load a line of 3 strings that uniquely correlate to whatever they've created. I coded 6 individual buttons to cycle through 3 AnimatedSprite2D's frames to allow the user to cycle through the options. Further, the save and load buttons were linked to the main node itself, and on press, either loaded the input or gave the user the code for their current combination. 
+
+Through this project, I learned a few things. First, I created my own assets using a pixel art website. This taught me how to create my own assets and make things I may need on the fly. Second, I was able to gain a better understanding of using connections and signals in Godot. Third, I learned how to make an editable text box. Fourth, I learned how to take input from a user and filter through it to only react to valid input. Finally, I learned how to think outside the box a bit more. The project was assigned as a character creator, but I ended up doing landscapes instead since I wanted to draw my own assets, and I can't draw people. 
+
+If I went back and did this project again, I would absolutely first clean up my UI. A lot of buttons are different sizes, the text is inconsistent and not entirely on theme, and it looks bland. Further, I would add more options. If the user wants to create something realistic, they get a little bit soft locked as the moon wouldn't be out during a sunset. All in all, I'd make the game a little more in-depth and on-theme. 
